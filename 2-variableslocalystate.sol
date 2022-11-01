@@ -13,7 +13,7 @@ contract exampleFunction{
     return a;
   }
 
-  function returnLocalVariable( ) public pure returns (uint8){
+  function returnLocalVariable( ) public pure returns (uint8) {
     uint8 b=20;
     return b;
   }
