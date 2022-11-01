@@ -5,10 +5,10 @@ Luego, crea otra funcion get() que devuelva el valor de la state variable. */
 pragma solidity ^0.8.17;
 
 contract functionArgument{
- uint num =10;
+ uint num = 10;
  
  function set(uint _item) public {
-  num=_item;
+  num =_item;
  }
  function get() public view returns(uint){
  return num;

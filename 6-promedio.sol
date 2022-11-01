@@ -5,7 +5,7 @@ Devolve el promedio de a, b y c. La funcion debe ser public. */
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract day6 {
+contract promedio {
     function average(
         int256 a,
         int256 b,
