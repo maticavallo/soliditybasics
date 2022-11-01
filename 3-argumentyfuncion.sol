@@ -4,7 +4,7 @@ Luego, crea otra funcion get() que devuelva el valor de la state variable. */
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract functionArgument{
+contract FunctionArgument{
  uint num = 10;
  
  function set(uint _item) public {

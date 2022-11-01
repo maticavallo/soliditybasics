@@ -4,8 +4,8 @@ La funcion debe ser public. */
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract remainer {
-    function evaluate(int256 a, int256 b) public pure returns (int256) {
+contract Remainer {
+    function evaluate(uint256 a, uint256 b) public pure returns (uint256) {
         return ((a + b) - (a - b));
     }
 }

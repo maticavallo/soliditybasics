@@ -5,7 +5,7 @@ De igual manera, tenes que crear una variable local e iniciarla con 20 y luego t
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract exampleFunction{
+contract ExampleFunction{
 
   uint8 a=10;
 
